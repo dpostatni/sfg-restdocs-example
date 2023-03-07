@@ -133,9 +133,13 @@ class BeerControllerTest {
         }
 
         private FieldDescriptor withPath(String path) {
-            return fieldWithPath(path).attributes(key("constraints").value(StringUtils
-                    .collectionToDelimitedString(this.constraintDescriptions
-                            .descriptionsForProperty(path), ". ")));
+            return fieldWithPath(path)
+                    .attributes(
+                            key("constraints")
+                                    .value(StringUtils.collectionToDelimitedString(
+                                            this.constraintDescriptions.descriptionsForProperty(path),
+                                            ". ")
+                                    ));
         }
     }
 

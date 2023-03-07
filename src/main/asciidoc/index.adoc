@@ -11,18 +11,18 @@ documentation snippets.
 
 One showing how to make a request using cURL:
 
-include::{snippets}/orders/curl-request.adoc[]
+#include::{snippets}/orders/curl-request.adoc[]
 
 One showing the HTTP request:
 
-include::{snippets}/orders/http-request.adoc[]
+#include::{snippets}/orders/http-request.adoc[]
 
 And one showing the HTTP response:
 
-include::{snippets}/orders/http-response.adoc[]
+#include::{snippets}/orders/http-response.adoc[]
 
 Response Body:
-include::{snippets}/orders/response-body.adoc[]
+#include::{snippets}/orders/response-body.adoc[]
 
 Response Fields:
-include::{snippets}/orders/response-fields.adoc[]
+#include::{snippets}/orders/response-fields.adoc[]
